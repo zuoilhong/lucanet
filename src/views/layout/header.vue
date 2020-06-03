@@ -15,7 +15,7 @@
               <ul class="ln-main-menu__list">
                 <li class="ln-main-menu__item ln-main-menu__item--has-sub ln-main-menu__item--active">
                   <router-link to="" class="ln-main-menu__link" title="Solutions">Solutions</router-link>
-                  <div class="container ln-mega-menu" style="height:400px;background:red;width:100%">
+                  <div class="container ln-mega-menu" style="background:red;width:100%">
 
                   </div>
                 </li>
