@@ -99,8 +99,7 @@ export default {
   background-position: 50%;
   background-repeat: no-repeat;
 }
-.ln-headline--hero,
-.ln-headline--teaser--small-mb {
+.ln-headline--hero,.ln-headline--teaser--small-mb {
   margin-bottom: 16px;
 }
 .ln-headline--hero {
