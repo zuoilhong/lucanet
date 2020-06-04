@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="ln-hero-banner ln-hero-banner--h450 ln-hero-banner--theme-default ln-hero-banner--valign-middle ln-hero-banner--align-right"
+      class="ln-hero-banner ln-hero-banner--h550 ln-hero-banner--theme-default ln-hero-banner--valign-middle ln-hero-banner--align-right"
     >
       <div class="container ln-hero-banner__container-wrapper lnet-slider--transition">
         <div class="ln-hero-banner__element-wrapper">
@@ -27,7 +27,7 @@
       </div>
       <div
         class="ln-hero-banner__background-image"
-        style="background-image: url('https://www.lucanet.com/media/cache/slider_450_lg/images/slider-image/header-uebersicht-solutions-1920-450-meta.jpg')"
+        style="background-image: url('https://www.lucanet.com/media/cache/slider_550_lg/images/slider-image/header-startseite-meta-1920-550.jpg')"
       ></div>
     </div>
     <main>
@@ -104,7 +104,7 @@ export default {
   margin-bottom: 16px;
 }
 .ln-headline--hero {
-  font-family: Roboto, Helvetica Neue, Arial, sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.2;
@@ -117,7 +117,7 @@ export default {
 .btn {
   display: inline-block;
   margin-top: 1.25rem;
-  padding: 0.625rem 1.5625rem;
+  padding: 10px 1.5625rem;
   vertical-align: middle;
   border-radius: 0;
   border: 2px solid #04a88c;
@@ -217,8 +217,8 @@ export default {
   .ln-hero-banner--align-right {
     text-align: right;
   }
-  .ln-hero-banner--h450 {
-    height: 450px;
+  .ln-hero-banner--h550 {
+    height: 550px;
   }
 
   .ln-hero-banner--valign-middle .ln-hero-banner__container-wrapper {
@@ -234,7 +234,7 @@ export default {
   }
   .ln-hero-banner__headline,
   .ln-hero-banner__subline {
-    padding: 14px;
+    padding: 10px;
     background-color: hsla(0, 0%, 100%, 0.8);
   }
   .ln-hero-banner__headline {
@@ -271,7 +271,7 @@ export default {
     font-size: 44px;
   }
   .ln-hero-banner__subline {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 300;
     line-height: 1.1;
   }
