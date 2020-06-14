@@ -17,6 +17,14 @@ const routes = [
           title: '首页',
           requiresAuth: false
         }
+      },
+      {
+        path: '/consulting',
+        component: () => import('../views/consulting/index.vue'),
+        meta: {
+          title: 'consulting',
+          requiresAuth: false
+        }
       }
     ]
   }
