@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <div>
     <div
       class="ln-hero-banner ln-hero-banner--h450 ln-hero-banner--theme-default ln-hero-banner--valign-middle ln-hero-banner--align-left"
     >

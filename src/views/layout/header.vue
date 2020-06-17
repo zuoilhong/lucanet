@@ -25,116 +25,15 @@
                       <div class="ln-mega-menu__grid">
                         <div class="ln-mega-menu__grid-item">
                           <ul class="ln-mega-menu__list">
-                            <li class="ln-mega-menu__headline">Company</li>
-                            <li class="ln-mega-menu__item">
-                              <router-link to title="Overview">Overview</router-link>
-                            </li>
-                            <li class="ln-mega-menu__item">
-                              <router-link to title="LucaNet history">LucaNet history</router-link>
-                            </li>
-                            <li class="ln-mega-menu__item">
-                              <router-link to title="Management team">Management team</router-link>
-                            </li>
-                            <li class="ln-mega-menu__item">
-                              <router-link to title="Locations">Locations</router-link>
-                            </li>
-                            <li class="ln-mega-menu__item">
-                              <router-link to title="Award-winning company">Award-winning company</router-link>
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="ln-mega-menu__grid-item">
-                          <ul class="ln-mega-menu__list">
-                            <li class="ln-mega-menu__headline">Career</li>
-                            <li class="ln-mega-menu__item">
-                              <router-link to title="Working at LucaNet">Working at LucaNet</router-link>
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="ln-mega-menu__grid-item">
-                          <ul class="ln-mega-menu__list">
-                            <li class="ln-mega-menu__headline">Contact</li>
-                            <li class="ln-mega-menu__item">
-                              <router-link to title="Contact form">Contact form</router-link>
-                            </li>
-                            <li class="ln-mega-menu__item">
-                              <router-link to title="Support">Support</router-link>
-                            </li>
-                            <li class="ln-mega-menu__headline" style="margin:12px 0">Legal notice</li>
-                            <li class="ln-mega-menu__item">
-                              <router-link to title="Imprint">Imprint</router-link>
-                            </li>
-                            <li class="ln-mega-menu__item">
-                              <router-link to title="Terms and conditions">Terms and conditions</router-link>
-                            </li>
-                            <li class="ln-mega-menu__item">
-                              <router-link to title="Data protection">Data protection</router-link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="ln-main-menu__item">
-                  <router-link to="/consulting" class="ln-main-menu__link" title="Consulting">Consulting</router-link>
-                </li>
-                <li class="ln-main-menu__item ln-main-menu__item--has-sub">
-                  <router-link to class="ln-main-menu__link" title="Info-Center">Info-Center</router-link>
-                  <div class="container ln-mega-menu">
-                    <div class="ln-mega-menu__wrapper-left">
-                      <div class="ln-mega-menu__grid">
-                        <div class="ln-mega-menu__grid-item">
-                          <ul class="ln-mega-menu__list">
-                            <li class="ln-mega-menu__headline">Resources</li>
-                            <li class="ln-mega-menu__item">
-                              <router-link to title="LucaNet Blog">Blog</router-link>
-                            </li>
-                            <li class="ln-mega-menu__item">
-                              <router-link
-                                to
-                                title="White papers and e-books"
-                              >White papers and e-books</router-link>
-                            </li>
-                            <li class="ln-mega-menu__item">
-                              <router-link to title="Brochures">Brochures</router-link>
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="ln-mega-menu__grid-item">
-                          <ul class="ln-mega-menu__list">
-                            <li class="ln-mega-menu__headline">Press</li>
-                            <li class="ln-mega-menu__item">
-                              <router-link to title="Overview">Overview</router-link>
-                            </li>
-                            <li class="ln-mega-menu__item">
-                              <router-link to title="Press releases">Press releases</router-link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="ln-main-menu__item">
-                  <router-link to class="ln-main-menu__link" title="Solutions">References</router-link>
-                </li>
-                <li class="ln-main-menu__item ln-main-menu__item--has-sub">
-                  <router-link to class="ln-main-menu__link" title="Solutions">Company</router-link>
-                  <div class="container ln-mega-menu">
-                    <div class="ln-mega-menu__wrapper-left">
-                      <div class="ln-mega-menu__grid">
-                        <div class="ln-mega-menu__grid-item">
-                          <ul class="ln-mega-menu__list">
                             <li class="ln-mega-menu__headline">Close</li>
                             <li class="ln-mega-menu__item">
                               <router-link
-                                to
+                                to="/financial"
                                 title="Financial Consolidation"
                               >Financial Consolidation</router-link>
                             </li>
                             <li class="ln-mega-menu__item">
-                              <router-link to title="IFRS 16 ">IFRS 16</router-link>
+                              <router-link to="/ifrs16" title="IFRS 16 ">IFRS 16</router-link>
                             </li>
                           </ul>
                         </div>
@@ -143,18 +42,20 @@
                             <li class="ln-mega-menu__headline">Plan</li>
                             <li class="ln-mega-menu__item">
                               <router-link
-                                to
+                                to="/Financial_Planning"
                                 title="Financial Planning and Budgeting"
                               >Financial Planning and Budgeting</router-link>
                             </li>
                             <li class="ln-mega-menu__item">
                               <router-link
-                                to
+                                to="/forecasting"
                                 title="Forecasting and Scenario Planning"
                               >Forecasting and Scenario Planning</router-link>
                             </li>
                             <li class="ln-mega-menu__item">
-                              <router-link to title="Group Controlling">Group Controlling</router-link>
+                              <router-link 
+                                to="/group_Controlling"
+                                title="Group Controlling">Group Controlling</router-link>
                             </li>
                           </ul>
                         </div>
@@ -214,6 +115,107 @@
                                 to
                                 title="LucaNet.Cloud vs. On-Premises"
                               >LucaNet.Cloud vs. On-Premises</router-link>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="ln-main-menu__item">
+                  <router-link to="/consulting" class="ln-main-menu__link" title="Consulting">Consulting</router-link>
+                </li>
+                <li class="ln-main-menu__item ln-main-menu__item--has-sub">
+                  <router-link to class="ln-main-menu__link" title="Info-Center">Info-Center</router-link>
+                  <div class="container ln-mega-menu">
+                    <div class="ln-mega-menu__wrapper-left">
+                      <div class="ln-mega-menu__grid">
+                        <div class="ln-mega-menu__grid-item">
+                          <ul class="ln-mega-menu__list">
+                            <li class="ln-mega-menu__headline">Resources</li>
+                            <li class="ln-mega-menu__item">
+                              <router-link to title="LucaNet Blog">Blog</router-link>
+                            </li>
+                            <li class="ln-mega-menu__item">
+                              <router-link
+                                to
+                                title="White papers and e-books"
+                              >White papers and e-books</router-link>
+                            </li>
+                            <li class="ln-mega-menu__item">
+                              <router-link to title="Brochures">Brochures</router-link>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="ln-mega-menu__grid-item">
+                          <ul class="ln-mega-menu__list">
+                            <li class="ln-mega-menu__headline">Press</li>
+                            <li class="ln-mega-menu__item">
+                              <router-link to title="Overview">Overview</router-link>
+                            </li>
+                            <li class="ln-mega-menu__item">
+                              <router-link to title="Press releases">Press releases</router-link>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="ln-main-menu__item">
+                  <router-link to="/references" class="ln-main-menu__link" title="Solutions">References</router-link>
+                </li>
+                <li class="ln-main-menu__item ln-main-menu__item--has-sub">
+                  <router-link to class="ln-main-menu__link" title="Solutions">Company</router-link>
+                  <div class="container ln-mega-menu">
+                    <div class="ln-mega-menu__wrapper-left">
+                      <div class="ln-mega-menu__grid">
+                        <div class="ln-mega-menu__grid-item">
+                          <ul class="ln-mega-menu__list">
+                            <li class="ln-mega-menu__headline">Company</li>
+                            <li class="ln-mega-menu__item">
+                              <router-link to title="Overview">Overview</router-link>
+                            </li>
+                            <li class="ln-mega-menu__item">
+                              <router-link to title="LucaNet history">LucaNet history</router-link>
+                            </li>
+                            <li class="ln-mega-menu__item">
+                              <router-link to title="Management team">Management team</router-link>
+                            </li>
+                            <li class="ln-mega-menu__item">
+                              <router-link to title="Locations">Locations</router-link>
+                            </li>
+                            <li class="ln-mega-menu__item">
+                              <router-link to title="Award-winning company">Award-winning company</router-link>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="ln-mega-menu__grid-item">
+                          <ul class="ln-mega-menu__list">
+                            <li class="ln-mega-menu__headline">Career</li>
+                            <li class="ln-mega-menu__item">
+                              <router-link to title="Working at LucaNet">Working at LucaNet</router-link>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="ln-mega-menu__grid-item">
+                          <ul class="ln-mega-menu__list">
+                            <li class="ln-mega-menu__headline">Contact</li>
+                            <li class="ln-mega-menu__item">
+                              <router-link to title="Contact form">Contact form</router-link>
+                            </li>
+                            <li class="ln-mega-menu__item">
+                              <router-link to title="Support">Support</router-link>
+                            </li>
+                            <li class="ln-mega-menu__headline" style="margin:12px 0">Legal notice</li>
+                            <li class="ln-mega-menu__item">
+                              <router-link to title="Imprint">Imprint</router-link>
+                            </li>
+                            <li class="ln-mega-menu__item">
+                              <router-link to title="Terms and conditions">Terms and conditions</router-link>
+                            </li>
+                            <li class="ln-mega-menu__item">
+                              <router-link to title="Data protection">Data protection</router-link>
                             </li>
                           </ul>
                         </div>

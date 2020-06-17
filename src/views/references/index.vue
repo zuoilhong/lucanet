@@ -1,215 +1,40 @@
 <template>
   <div>
-    <div class="ln-hero-banner ln-hero-banner--h550 ln-hero-banner--theme-default ln-hero-banner--valign-middle ln-hero-banner--align-right">
+    <div
+      class="ln-hero-banner ln-hero-banner--h550 ln-hero-banner--theme-default ln-hero-banner--valign-middle ln-hero-banner--align-right"
+    >
       <div class="container ln-hero-banner__container-wrapper lnet-slider--transition">
         <div class="ln-hero-banner__element-wrapper">
           <span
             class="ln-headline--hero ln-hero-banner__headline"
-          >Taking the complexity out of finance</span>
+          >Turning customers into ambassadors</span>
         </div>
-        <div class="ln-hero-banner__element-wrapper">
-          <span
-            class="ln-hero-banner__subline"
-          >With Financial Performance Management software from LucaNet</span>
-        </div>
-        <a
-          href="https://www.lucanet.com/en/info-center/brochure/"
-          class="btn btn-white ln-hero-banner__cta"
-          role="button"
-        >See all brochures</a>
-        <a
-          href="https://www.lucanet.com/en/solutions"
-          class="btn btn-primary ln-hero-banner__cta"
-          role="button"
-        >Our solutions</a>
       </div>
       <div
         class="ln-hero-banner__background-image"
-        style="background-image: url('https://www.lucanet.com/media/cache/slider_550_lg/images/slider-image/header-startseite-meta-1920-550.jpg')"
+        style="background-image: url('https://www.lucanet.com/media/cache/slider_450_lg/images/slider-image/header-uebersicht-referenzen-1920-450-meta.jpg')"
       ></div>
     </div>
     <main>
-      <div class="ln-customer-alert pos-rel">
-        <div class="container ln-container">
-          <div class="ln-customer-alert__wrapper">
-            <span class="ln-customer-alert__badge">NEW!</span>
-            <div class="ln-customer-alert__text">
-              <p style="text-align:center">
-                <strong>LucaNet is once again FPM Market Leader!</strong>
-              </p>
-              <p>LucaNet is recognized as FPM Market Leader for the third time!</p>
-            </div>
-            <a
-              href="https://www.lucanet.com/en/lp/barc-score-fpm-market-leader-2020"
-              class="btn ln-customer-alert__link btn-white-outline"
-              title="Learn more"
-              style="padding: 12px 20px;font-size: 16px;"
-            >Learn more</a>
-          </div>
-        </div>
-      </div>
-      <div
-        class="full-width-block full-width-block--large-space-above full-width-block--zero-space-below"
-      >
+      <div class="container ln-breadcrumb"></div>
+      <!-- full-width-block -->
+      <div class="full-width-block">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 pos-rel">
-              <h1
-                class="tal ln-headline--large"
-              >A single solution that offers everything for your financial data</h1>
+            <div class="col-xs-12 col-sm-7 col-md-8 mb15">
+              <h1>How finance teams can achieve big things</h1>
+              <p>With more than 2,700 satisfied customers in over 50 countries, the figures speak for themselves.&nbsp;All enjoy the high performance and flexibility offered by our software.</p>
+              <p>From small trading businesses and mid-size manufacturing companies all the way to publicly traded groups, LucaNet helps finance teams in the most disparate sectors of the economy reach their goals faster.</p>
             </div>
-          </div>
-        </div>
-      </div>
-      <div
-        style="padding-top:0"
-        class="full-width-block full-width-block--left-half full-width-block--zero-space-above full-width-block--large-space-below"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 tal">
-              <h2 style="font-size:26px;">Simplify the way your finance team works:</h2>
-              <p>With Financial Performance Management Software from LucaNet, you can plan your finances, create consolidated financial statements, and generate reports at the press of a button – whether on-premises or in the cloud.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="full-width-block ln-bluebox ln-bluebox--top ln-bluebox--right ln-bluebox--small ln-bluebox--narrow ln-bluebox--has-button full-width-block--large-space-above"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 tac">
+            <div class="col-xs-12 col-sm-5 col-md-4">
               <div class="ln-teaser">
-                <div class="ln-teaser__grid-item">
-                  <a
-                    class="ln-teaser__item ln-teaser__item--usp ln-teaser__item--scale ln-teaser__item--border-raspberry tac"
-                    href="https://www.lucanet.com/en/solutions/close"
-                    title="Close"
-                  >
-                    <span class="ln-teaser__body">
-                      <span class="ln-teaser__icon">
-                        <img
-                          style="width:140px;height:140px"
-                          src="../../assets/ln-teaser__icon.png"
-                        />
-                      </span>
-                      <span class="ln-teaser__headline">Close</span>
-                      <span class="ln-teaser__text">Fast and error-free to your financial close</span>
-                    </span>
-                    <div class="ln-teaser_footer" style="background:#b80e80;"></div>
-                  </a>
-                </div>
-                <div class="ln-teaser__grid-item">
-                  <a
-                    class="ln-teaser__item ln-teaser__item--usp ln-teaser__item--scale ln-teaser__item--border-berry-shade-7 tac"
-                    href="https://www.lucanet.com/en/solutions/plan"
-                    title="Plan"
-                  >
-                    <span class="ln-teaser__body">
-                      <span class="ln-teaser__icon">
-                        <!-- <i aria-hidden="true" class="ln-icon-integrated-financial-planning"></i> -->
-                        <img
-                          style="width:140px;height:140px"
-                          src="../../assets/ln-teaser__icon2.png"
-                        />
-                      </span>
-                      <span class="ln-teaser__headline">Plan</span>
-                      <span class="ln-teaser__text">Predicting the future with transparent data</span>
-                    </span>
-                    <div class="ln-teaser_footer" style="background:#811c5e;"></div>
-                  </a>
-                </div>
-                <div class="ln-teaser__grid-item">
-                  <a
-                    class="ln-teaser__item ln-teaser__item--usp ln-teaser__item--scale ln-teaser__item--border-nightblue tac"
-                    href="https://www.lucanet.com/en/solutions/report"
-                    title="Report"
-                  >
-                    <span class="ln-teaser__body">
-                      <span class="ln-teaser__icon">
-                        <!-- <i aria-hidden="true" class="ln-icon-reporting"></i> -->
-                        <img
-                          style="width:140px;height:140px"
-                          src="../../assets/ln-teaser__icon3.png"
-                        />
-                      </span>
-                      <span class="ln-teaser__headline">Report</span>
-                      <span class="ln-teaser__text">Financial intelligence for consistent reporting</span>
-                    </span>
-                    <div class="ln-teaser_footer" style="background:#202a60;"></div>
-                  </a>
-                </div>
-                <div class="ln-teaser__grid-item">
-                  <a
-                    class="ln-teaser__item ln-teaser__item--usp ln-teaser__item--scale ln-teaser__item--border-lagoonblue tac"
-                    href="https://www.lucanet.com/en/solutions/collect"
-                    title="Collect"
-                  >
-                    <span class="ln-teaser__body">
-                      <span class="ln-teaser__icon">
-                        <!-- <i aria-hidden="true" class="ln-icon-data-collection"></i> -->
-                        <img
-                          style="width:140px;height:140px"
-                          src="../../assets/ln-teaser__icon4.png"
-                        />
-                      </span>
-                      <span class="ln-teaser__headline">Collect</span>
-                      <span class="ln-teaser__text">Easy and fast access to a uniform database</span>
-                    </span>
-                    <div class="ln-teaser_footer" style="background:#008bd2;"></div>
-                  </a>
+                <div class="ln-teaser__item">
+                  <div class="ln-teaser__body">
+                    <span class="ln-teaser__text"><p><strong>Success Stories</strong></p><p>Read success stories of satisfied customers.</p></span>
+                  </div>
+                  <span class="ln-teaser__footer ln-teaser__footer--editor-links"><router-link class="btn btn-green mt10" to="https://www.lucanet.com/en/info-center/brochure/lucanet-references" role="button">Download now</router-link></span>
                 </div>
               </div>
-            </div>
-            <div class="col-xs-12 tac">
-              <router-link
-                to
-                class="btn btn-green"
-                style="padding: 12px 22px"
-              >Learn more about our solutions</router-link>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--  -->
-      <div
-        class="full-width-block ln-metastream ln-metastream--four ln-metastream--top full-width-block--large-space-above full-width-block--large-space-below"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-sm-6 pos-rel">
-              <h2
-                class="tal ln-headline--normal mt0"
-              >Simply intelligent: Financial Performance Management</h2>
-              <div class="tal">
-                <p>
-                  Can you find the numbers you need, when you need them? Or are you getting lost in a maze of Excel files?
-                  <strong>Financial Performance Management</strong> (FPM) can give you the clarity you need. Let our intelligent FPM solutions simplify the ways you create consolidated financial statements, write a financial plan, and handle analysis and reporting. This software also gives you a comprehensive overview of everything from historical figures and actual data to your planned financial data.
-                </p>
-                <p>
-                  <router-link
-                    class="btn btn-primary btn--small-margin"
-                    to="https://www.lucanet.com/en/info-center/whitepaper/more-clarity-about-your-financial-data/"
-                  >Read the white paper</router-link>&nbsp;
-                  <router-link
-                    class="btn btn-nightblue-outline btn--small-margin"
-                    to="https://www.lucanet.com/en/solutions"
-                  >Get to know our solutions</router-link>
-                </p>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 video-block">
-              <figure>
-                <div class="embed-responsive embed-responsive-16by9">
-                  <video width="320" height="240" controls>
-                    <source
-                      src="https://www.youtube-nocookie.com/embed/eyNYfRmbQPc?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.lucanet.com"
-                      type="video/mp4"
-                    />
-                  </video>
-                </div>
-              </figure>
             </div>
           </div>
         </div>
@@ -218,29 +43,7 @@
       <div class="full-width-block">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 pos-rel">
-              <h2 class="tac ln-headline--normal">LucaNet 12 LTS is here</h2>
-            </div>
-            <div class="col-xs-12 tal">
-              <p
-                style="text-align:center"
-              >Get to know the latest generation of our software – LucaNet 12 LTS! Here, you can check out all the new features and highlights that are sure to make life easier in your finance department.</p>
-              <p style="text-align:center">
-                <router-link
-                  class="btn btn-primary btn--small-margin"
-                  style="padding:12px 22px"
-                  to="https://www.lucanet.com/en/lp/lucanet12lts-release"
-                >Highlights of LucaNet 12 LTS</router-link>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- full-width-block -->
-      <div class="full-width-block">
-        <div class="container">
-          <div class="row">
-            <h2 class="col-xs-12 text-center" style="font-size:38px">What our customers say</h2>
+            <h2 class="col-xs-12 text-center" style="font-size:34px">Wouldn’t you like to say the same?</h2>
             <div class="col-xs-12">
               <div class="col-xs-12 col-md-4 top-statement-box">
                 <blockquote class="blockquote-center text-center">
@@ -319,36 +122,27 @@
         </div>
       </div>
       <!--  -->
-      <div class="full-width-block full-width-block--large-space-below">
+      <div class="full-width-block">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="text-center">Around the world, more than 2,700 customers trust in LucaNet</h2>
-              <div class="logo-carousel logo-slider-controller carousel-controller">
-                <div class="owl-prev">
-                  <span class="fa fa-chevron-left" @click="switchImg(-1)">&lt;</span>
-                </div>
-                <div class="img_swiper">
-                  <ul
-                    class="img_swiper_ul"
-                    :style="'width:'+ imgWidthqq +'px'"
-                    ref="showImg"
-                    @mouseenter="stopAuto"
-                    @mouseleave="startAuto"
-                  >
-                    <!-- <li><img :src="userImage[userImage.length-1].img" alt=""></li> -->
-                    <li class="swiper_item" v-for="item in userImage" :key="item.index">
-                      <img :src="item.img" alt />
-                    </li>
-                    <li>
-                      <img :src="userImage[0].img" alt />
-                    </li>
-                  </ul>
-                </div>
-                <div class="owl-next">
-                  <span class="fa fa-chevron-right" @click="switchImg(-2)">&gt;</span>
-                </div>
-              </div>
+              <h2 class="text-center" style="font-size:38px">Highly recommended</h2>
+            </div>
+          </div>
+          <div class="row" id="referencesForm">
+            <div class="col-xs-12 col-sm-6 col-md-3 types-filter"><div id="checkboxCaseStudies" class="checkbox" style="display: block;"><label for="withCaseStudies"><input id="withCaseStudies" type="checkbox" value="hasCaseStudy"> with case study
+              </label></div><div id="checkboxVideo" class="checkbox" style="display: block;"><label for="withVideo"><input id="withVideo" type="checkbox" value="hasVideo"> with video
+              </label></div><div id="checkboxStatement" class="checkbox" style="display: block;"><label for="withStatement"><input id="withStatement" type="checkbox" value="hasStatement"> with statement
+              </label></div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 industry-filter"></div>
+            <div class="col-xs-12 col-sm-6 col-md-3 industry-filter"></div>
+            <div class="col-xs-12 col-sm-6 col-md-3 industry-filter"></div>
+            <hr>
+          </div>
+          <div class="row mt30">
+            <div v-for="(item, index) in footerimg" :key="index" class="col-xs-5 col-sm-3 col-md-2 col-lg-2 reference-company">
+              <router-link class="image-holder" to=""><img :src="item.url"/></router-link>
             </div>
           </div>
         </div>
@@ -365,27 +159,37 @@ export default {
       selected: 0, // 当前展示的图片
       imgWidth: 350,  // 图片宽度
       flag: true, // 节流阀，防止连续点击切换
-      userImage: [
+      footerimg:[
         {
-          img: 'http://a3.att.hudong.com/14/75/01300000164186121366756803686.jpg'
+          url: 'https://www.lucanet.com/media/cache/company_logo_lg/images/company/7_S_Group_01.png'
         },
         {
-          img: 'http://a0.att.hudong.com/56/12/01300000164151121576126282411.jpg'
-        }, {
-          img: 'http://a2.att.hudong.com/36/48/19300001357258133412489354717.jpg'
+          url: 'https://www.lucanet.com/media/cache/company_logo_lg/images/company/logo_abl_technic_entlackung.jpg'
         },
         {
-          img: 'http://a0.att.hudong.com/64/76/20300001349415131407760417677.jpg'
+          url: 'https://www.lucanet.com/media/cache/company_logo_lg/images/company/logo_althoff.jpg'
         },
         {
-          img: 'http://a0.att.hudong.com/27/10/01300000324235124757108108752.jpg'
+          url: 'https://www.lucanet.com/media/cache/company_logo_lg/images/company/logo_antenne_bayern.jpg'
         },
         {
-          img: 'http://a3.att.hudong.com/68/61/300000839764127060614318218_950.jpg'
+          url: 'https://www.lucanet.com/media/cache/company_logo_lg/images/company/logo_tank_und_rast.JPG'
         },
         {
-          img: 'http://img2.imgtn.bdimg.com/it/u=3984473917,238095211&fm=214&gp=0.jpg'
-        }
+          url: 'https://www.lucanet.com/media/cache/company_logo_lg/images/company/logo_automic_software.jpg'
+        },
+        {
+          url: 'https://www.lucanet.com/media/cache/company_logo_lg/images/company/logo-avaloq.png'
+        },
+        {
+          url: 'https://www.lucanet.com/media/cache/company_logo_lg/images/company/logo-backwerk.png'
+        },
+        {
+          url: 'https://www.lucanet.com/media/cache/company_logo_lg/images/company/badgepoint.jpg'
+        },
+        {
+          url: 'https://www.lucanet.com/media/cache/company_logo_lg/images/company/logo-basicfit.PNG'
+        },
       ]
     };
   },
@@ -393,9 +197,7 @@ export default {
 
   },
   computed: {
-    imgWidthqq: function () {
-      return parseInt(this.userImage.length * 390);
-    }
+
   },
   methods: {
 
@@ -404,7 +206,8 @@ export default {
 </script>
 
 <style lang="less" scoped>
-ul,li{
+ul,
+li {
   list-style: none;
 }
 .img_swiper {
@@ -826,12 +629,12 @@ blockquote footer:before {
     text-align: right;
   }
   .ln-hero-banner--h550 {
-    height: 550px;
+    height: 450px;
   }
 
   .ln-hero-banner--valign-middle .ln-hero-banner__container-wrapper {
-    top: 50%;
-    transform: translateY(-50%);
+    top: 95%;
+    transform: translateY(-95%);
   }
   .ln-hero-banner--align-right .ln-hero-banner__element-wrapper {
     margin-left: auto;
@@ -847,7 +650,7 @@ blockquote footer:before {
   }
   .ln-hero-banner__headline {
     letter-spacing: 0;
-    color: #008bd2;
+    color: #b80e80;
   }
   .ln-hero-banner__subline {
     color: #333;
@@ -966,17 +769,106 @@ blockquote footer:before {
   .ln-metastream--four {
     background-image: url("../../assets/meta_four_xl.png");
   }
+  .col-lg-2 {
+    width: 16.66667%;
+  }
 }
-@media screen and (min-width: 1500px) {
-  .container {
-    width: 1400px;
-    max-width: 1400px;
+  @media screen and (min-width: 1500px) {
+    .container {
+      width: 1400px;
+      max-width: 1400px;
+    }
+    .ln-headline--hero {
+      font-size: 52px;
+    }
+    .ln-hero-banner__subline {
+      font-size: 32px;
+    }
   }
-  .ln-headline--hero {
-    font-size: 53px;
+</style>
+<style lang="less" scoped>
+  .ln-breadcrumb {
+    display: block;
+    padding: 20px 15px;
+    margin-bottom: 10px;
   }
-  .ln-hero-banner__subline {
-    font-size: 32px;
+  .mb15 {
+    margin-bottom: 15px !important;
   }
+  .mt10 {
+    margin-top: 10px!important;
+  }
+  .col-md-8 {
+    width: 66.66667%;
+  }
+  .col-md-4 {
+    width: 33.33333%;
+  }
+  .ln-teaser__footer {
+    display: flex;
+    align-items: flex-end;
+    flex: 1 1 auto;
+    padding: .625rem 2.1875rem 1.875rem;
+    justify-content: flex-start;
+}
+.ln-teaser__footer--editor-links {
+    flex-direction: column;
+    align-items: stretch;
+}
+.col-md-3 {
+    width: 25%;
+}
+.checkbox, .radio {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.checkbox label, .radio label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+.mt30 {
+    margin-top: 30px!important;
+}
+.reference-company {
+    background-color: #fff;
+    margin: 10px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid #f5f5f5;
+}
+a.image-holder, a.image-holder:hover, a.ln-image, a.ln-image:hover {
+    border: 0;
+}
+.image-holder img{
+   filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+     -webkit-transition: all .4s ease;
+     -moz-transition: all .4s ease;
+     -ms-transition: all .4s ease;
+     -o-transition: all .4s ease;
+     transition: all .4s ease;
+     &:hover{
+      filter: grayscale(0%);
+      -webkit-filter: grayscale(0%);
+      filter: none;
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+     }
 }
 </style>
