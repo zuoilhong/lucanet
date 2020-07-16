@@ -563,6 +563,9 @@ export default {
   methods: {
     onList(index) {
       this.curidenx = index
+    },
+    onCheangeInput() {
+      
     }
   }
 }
