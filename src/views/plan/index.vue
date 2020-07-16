@@ -565,7 +565,7 @@ export default {
       this.curidenx = index
     },
     onCheangeInput() {
-      
+      console.log('aaaaaaaaaa')
     }
   }
 }
