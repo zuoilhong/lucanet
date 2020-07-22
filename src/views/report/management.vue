@@ -7,12 +7,12 @@
         <div class="ln-hero-banner__element-wrapper">
           <span
             class="ln-headline--hero ln-hero-banner__headline"
-          >For dependable planning figures</span>
+          >FOCUSED, MEANINGFUL REPORTS</span>
         </div>
       </div>
       <div
         class="ln-hero-banner__background-image"
-        style="background-image: url('https://www.lucanet.com/media/cache/slider_300_lg/images/slider-image/header-loesungen-planung-1920-300.jpg')"
+        style="background-image: url('https://www.lucanet.com/media/cache/slider_300_lg/images/slider-image/header-loesungen-reporting-1920-300.jpg')"
       ></div>
     </div>
     <main>
@@ -23,10 +23,9 @@
               <div class="ln-solution-text col-xs-12 col-sm-6 mb10">
                 <h1
                   class="ln-headline--large ln-solution-text__headline"
-                >The software for financial planning and budgeting</h1>
+                >The software for management reporting</h1>
                 <span class="ln-solution-text__text">
-                  <p>Put your trust in controlling software that’s not beholden to a particular industry and covers all the aspects of business planning. Say goodbye to traditional planning systems that are based mainly on Excel spreadsheets and non-standardized data, and lay the foundations for integrated financial planning and professional financial controlling that includes transparent budget planning.</p>
-                  <p>LucaNet’s planning and controlling software has achieved top rankings in BARC’s Planning Survey, having particularly impressed judges in the data transfer, user friendliness, and performance categories. Since it’s based on a standardized system, LucaNet puts you in a position to automate your budgeting and financial planning processes and manage them in flexible ways.</p>
+                  <p>Reliable reporting, automated by software and based on high-quality data? It's possible with LucaNet: Our reporting solution gives you all the assistance you need with evaluations and analyses of your financial processes. This self-service tool provides professionals like you with an efficient and transparent means of preparing relevant indicators such as cash flow, liquidity, and profitability within a single system and making them available to stakeholders in a timely manner. It will also put your worries to rest about meeting your reporting deadlines. With LucaNet's software for management reporting, the relevant information is guaranteed to reach the proper recipients right on time.</p>
                 </span>
               </div>
               <div class="col-xs-12 col-sm-6 ln-solution-video">
@@ -50,28 +49,27 @@
               <div class="col-xs-12">
                 <h2
                   class="ln-headline--normal ln-solution__section-headline tal"
-                >Just what you need in financial planning software for controlling</h2>
+                >What you need in reporting software</h2>
               </div>
             </div>
             <div class="row ln-solution-text mt35">
               <div class="col-xs-12">
                 <div class="ln-solution-text__text">
-                  <p>Our software for integrated financial planning, budgeting, and controlling is sure to be the right tool for you thanks to all the functions it offers, which include:</p>
+                  <p>Our reporting software is sure to be the right tool for you thanks to all the functions it offers, which include:</p>
                   <ul style="list-style-type: square;font-size:18px;padding-left:30px">
-                    <li>Dynamic planning on a monthly, quarterly, and annual basis</li>
-                    <li>Definition of planning periods of any length of time</li>
-                    <li>Predefined planning forms including business logic</li>
-                    <li>Sub-plans at the cost center and/or cost unit level</li>
-                    <li>Excel integration for transferring planning data</li>
-                    <li>Automatic, rules-based derivation of integrated business planning (P&L, balance sheet, liquidity)</li>
-                    <li>Representation of direct liquidity planning</li>
-                    <li>Planned transition of actual stocks</li>
-                    <li>Scenarios and forecasts</li>
-                    <li>Graphical comparisons and diagrams</li>
+                    <li>Predefined reports and evaluations</li>
+                    <li>Variance analyses, including traffic light function</li>
+                    <li>Embedding of sparklines directly in value cells</li>
+                    <li>Graphical comparisons (actual vs. planning figures)</li>
+                    <li>Visualization of data in diagrams</li>
+                    <li>Interactive analysis function</li>
                     <li>Management cockpit</li>
+                    <li>Presentation of predefined and customizable indicators</li>
+                    <li>Full Excel integration, including pivot tables</li>
+                    <li>Open interfaces (e.g. XMLA, ODBO, MDX) for integration with existing report and analysis environments</li>
                   </ul>
                   <p style="text-align:center">
-                    <br />Do you require assistance choosing the right financial planning software? Just download our catalog free of charge.
+                    <br />Do you require assistance in the hunt for the right reporting software? Then be sure to include our catalog in your selection process. You can download it free of charge.
                   </p>
                   <p style="text-align:center">
                     <router-link
@@ -93,7 +91,7 @@
               <div class="col-xs-12">
                 <h2
                   class="ln-headline--normal ln-solution__section-headline tac"
-                >An intelligent solution for financial planning: How LucaNet can benefit you</h2>
+                >An intelligent solution for management reporting: How LucaNet can benefit you</h2>
               </div>
             </div>
             <div class="row mt35">
@@ -101,11 +99,11 @@
                 <div class="ln-teaser__grid-item">
                   <div class="ln-teaser__item ln-teaser__item--benefit">
                     <span class="ln-teaser__body">
-                      <span class="ln-teaser__headline">Automated budget planning</span>
+                      <span class="ln-teaser__headline">Comprehensive view</span>
                       <span class="ln-teaser__text">
                         <p
                           style="text-align:center"
-                        >LucaNet aids users like you in developing detailed planned time series using a range of forecast wizards. Along with operational planning aspects of your profit and loss statements (such as sales, project, and HR planning), you can generate detailed plans for your budgeting, including for investments and borrowing.</p>
+                        >Tailored to your specific needs, LucaNet provides standard and ad-hoc reports for all the components of a professional reporting system. Features such as comparative views, time series analyses, and exchange rate scenarios are included and are illustrated using graphics and spark lines.</p>
                       </span>
                     </span>
                     <img src="../../assets/icon-f.png" class="ln-teaser__badge" />
@@ -114,11 +112,11 @@
                 <div class="ln-teaser__grid-item">
                   <div class="ln-teaser__item ln-teaser__item--benefit">
                     <span class="ln-teaser__body">
-                      <span class="ln-teaser__headline">Data transfer</span>
+                      <span class="ln-teaser__headline">Flexibility</span>
                       <span class="ln-teaser__text">
                         <p
                           style="text-align:center"
-                        >Leave complex data integration processes behind. With LucaNet, accessing information from the upstream databases of financial accounting, HR, and CRM systems couldn’t be simpler. LucaNet offers interfaces that are immediately usable and standardized for around 200 source systems. They're also easy to modify or extend if necessary.</p>
+                        >This LucaNet tool makes it possible for you to make changes to structures in a way that is flexible and straightforward. It also presents important data in a transparent manner and enables you to add KPIs and statistical information – all within a single, convenient system.</p>
                         <p style="text-align:center">
                           <a
                             href="https://www.lucanet.com/en/technology/software-architecture#source-systems"
@@ -132,11 +130,11 @@
                 <div class="ln-teaser__grid-item">
                   <div class="ln-teaser__item ln-teaser__item--benefit">
                     <span class="ln-teaser__body">
-                      <span class="ln-teaser__headline">Integrated financial planning</span>
+                      <span class="ln-teaser__headline">Excel integration</span>
                       <span class="ln-teaser__text">
                         <p
                           style="text-align:center"
-                        >With our software for planning and controlling, you can automatically calculate the effects your budget planning will have on your profit and loss statement, balance sheet, and liquidity. The parameters for the automated generation of integrated financial planning incl. direct liquidity planning are defined in accounting rules and payment modalities.</p>
+                        >LucaNet offers full Excel integration for planning and reporting purposes. Use LucaNe<strong>.Excel-Add-In</strong> for interactive analysis and processing of data and LucaNet.<strong>Excel-Reporting</strong> to generate standard reports.</p>
                       </span>
                     </span>
                     <img src="../../assets/icon-f.png" class="ln-teaser__badge" />
@@ -145,11 +143,11 @@
                 <div class="ln-teaser__grid-item">
                   <div class="ln-teaser__item ln-teaser__item--benefit">
                     <span class="ln-teaser__body">
-                      <span class="ln-teaser__headline">Security</span>
+                      <span class="ln-teaser__headline">BI integration</span>
                       <span class="ln-teaser__text">
                         <p
                           style="text-align:center"
-                        >You can count on us: The data model behind LucaNet software has been tested in accordance with the ISAE 3000 auditing standard, with evaluations of P&L, balance sheet, cashflow, etc. always being in themselves consistent and valid.</p>
+                        >LucaNet supports connections to other business analytics systems. Whether you’re using a BI tool such as QlikView, Tableau, or Microsoft Power BI, you can easily use the relevant data from LucaNet to present it in the BI tool of your choice.</p>
                       </span>
                     </span>
                     <img src="../../assets/icon-f.png" class="ln-teaser__badge" />
@@ -158,11 +156,11 @@
                 <div class="ln-teaser__grid-item">
                   <div class="ln-teaser__item ln-teaser__item--benefit">
                     <span class="ln-teaser__body">
-                      <span class="ln-teaser__headline">Integrated forecasting</span>
+                      <span class="ln-teaser__headline">Time savings</span>
                       <span class="ln-teaser__text">
                         <p
                           style="text-align:center"
-                        >You can easily derive scenarios and (rolling) projections from your existing planning. These can be contrasted against each other and valued using flexible views.</p>
+                        >With reporting software from LucaNet, you’ll reduce the manual effort you put into data collection and validation. You’ll finally be able to focus on the things that matter, like analyzing the data. You’ll become a respected business partner within your company.</p>
                       </span>
                     </span>
                     <img src="../../assets/icon-f.png" class="ln-teaser__badge" />
@@ -171,11 +169,11 @@
                 <div class="ln-teaser__grid-item">
                   <div class="ln-teaser__item ln-teaser__item--benefit">
                     <span class="ln-teaser__body">
-                      <span class="ln-teaser__headline">Flexibility</span>
+                      <span class="ln-teaser__headline">Self-service solution</span>
                       <span class="ln-teaser__text">
                         <p
                           style="text-align:center"
-                        >LucaNet's bidirectional MS Excel integration guarantees you additional flexibility, whether it's in planning or report creation. If you require a consolidated perspective within the context of a group, our financial planning software can be flexibly enhanced with our tool for financial consolidation.</p>
+                        >With LucaNet, the secret lies in self-service technology. As a professional user, you can administer the system on your own and make any adjustments independently within the tool. That will also please your IT department, as it will have a lighter support workload.</p>
                       </span>
                     </span>
                     <img src="../../assets/icon-f.png" class="ln-teaser__badge" />
@@ -191,7 +189,7 @@
               <div class="col-xs-12">
                 <h2
                   class="ln-headline--normal ln-solution__section-headline tac"
-                >Nine surefire steps to devising the perfect financial plan</h2>
+                >Five surefire steps to implementing management reporting:</h2>
               </div>
             </div>
             <div class="row mt35" id="solution-processes">
@@ -271,35 +269,10 @@
                 </div>
               </div>
               <div class="col-md-4 ln-solution-process">
-                <img
-                  src="../../assets/icon-left3.png"
-                  style="position: absolute;bottom:-55px;left:48%"
-                />
-                <div class="ln-solution-process__body">
-                  <div class="ln-solution-process__icon">
-                    <img src="../../assets/icon-p6.png" />
-                    <span class="ln-solution-process__badge">6</span>
-                  </div>
-                  <span class="ln-solution-process__headline">Balance sheet and liquidity planning</span>
-                </div>
-                <div class="dropdown">
-                  <img
-                    src="../../assets/icon-togger.png"
-                    class="dropdownMenu"
-                    id="dropdownMenu2"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  />
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li>With our planning software, it’s easy to make the transition to integrated balance sheet and liquidity planning.</li>
-                    <li>It’s also possible to define payment modalities</li>
-                    <li>Automate the transition of open items from actual to planning status.</li>
-                  </ul>
-                </div>
+                
               </div>
               <div class="col-md-4 ln-solution-process">
-                <img src="../../assets/icon-left2.png" style="position: absolute;top:45%;left:0" />
+                <!-- <img src="../../assets/icon-left2.png" style="position: absolute;top:45%;left:0" /> -->
                 <div class="ln-solution-process__body">
                   <div class="ln-solution-process__icon">
                     <img src="../../assets/icon-p5.png" />
@@ -344,79 +317,6 @@
                   </ul>
                 </div>
               </div>
-              <div class="col-md-4 ln-solution-process">
-                <!-- <img src="../../assets/icon-left.png" style="position: absolute;top:45%;left:0"/> -->
-                <div class="ln-solution-process__body">
-                  <div class="ln-solution-process__icon">
-                    <img src="../../assets/icon-p7.png" />
-                    <span class="ln-solution-process__badge">7</span>
-                  </div>
-                  <span class="ln-solution-process__headline">Group planning</span>
-                </div>
-                <div class="dropdown">
-                  <img
-                    src="../../assets/icon-togger.png"
-                    class="dropdownMenu"
-                    id="dropdownMenu2"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  />
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li>
-                      If necessary, you can combine the planning of your individual companies into group planning (consolidation).
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-4 ln-solution-process">
-                <img src="../../assets/icon-left.png" style="position: absolute;top:45%;left:0" />
-                <div class="ln-solution-process__body">
-                  <div class="ln-solution-process__icon">
-                    <img src="../../assets/icon-p8.png" />
-                    <span class="ln-solution-process__badge">8</span>
-                  </div>
-                  <span class="ln-solution-process__headline">Reporting</span>
-                </div>
-                <div class="dropdown">
-                  <img
-                    src="../../assets/icon-togger.png"
-                    class="dropdownMenu"
-                    id="dropdownMenu2"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  />
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li>
-                      Create meaningful reports and analyses with ease.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-4 ln-solution-process">
-                <img src="../../assets/icon-left.png" style="position: absolute;top:45%;left:0" />
-                <div class="ln-solution-process__body">
-                  <div class="ln-solution-process__icon">
-                    <img src="../../assets/icon-p9.png" />
-                    <span class="ln-solution-process__badge">9</span>
-                  </div>
-                  <span class="ln-solution-process__headline">Scenarios and forecasts</span>
-                </div>
-                <div class="dropdown">
-                  <img
-                    src="../../assets/icon-togger.png"
-                    class="dropdownMenu"
-                    id="dropdownMenu2"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  />
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li>Map scenarios and intrayear updates to planning (forecasts) with ease.</li>
-                  </ul>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -424,7 +324,7 @@
         <div class="full-width-block ln-solution__section">
           <div class="container">
             <div class="mb35">
-              <div class="row">
+              <div class="row mb35">
                 <div class="col-xs-12">
                   <h2
                     class="ln-headline--normal ln-solution__section-headline tal"
@@ -450,10 +350,7 @@
                     <img src="../../assets/frame_desktop.png" style="width:100%" />
                     <div class="ln-screenshot__info">
                       <ul style="list-style-type: square;">
-                        <li>The balance sheet and cash flow statement used for planning are fully automated on the basis of payment modalities and accounting rules and are derived from the planning (expenses, income and capital expenditure) in real time.</li>
-                        <li>Accounting rules are the centerpiece of the integrated financial planning in LucaNet.</li>
-                        <li>All accounting rules can easily be retrieved and adopted in all subsequent planning processes.</li>
-                      </ul>
+                        <li>Take advantage of freely configurable views for comparing actual and planning figures, as well as figures for forecasts, scenarios, and previous years.</li><li>A wide array of configuration options is available within the reporting software, including sparklines and colored columns.</li><li>Once defined, views are directly accessible in the tool from every structure and evaluation (in the balance sheet, P&amp;L, or KPI areas, for example).</li><li>It's also easy to create separate columns for comments (such as when deviations occur).</li></ul>
                     </div>
                   </div>
                 </div>
@@ -467,29 +364,12 @@
             <div class="row ln-solution-text mt35">
               <div class="col-xs-12">
                 <div class="ln-solution-text__text">
-                  <h3 style="font-size:30px;margin:32px 0 16px">A professional enhancement for your LucaNet software</h3>
-                  <h4 style="font-size:22px;margin:20px 0 12px">App: Business valuation</h4>
-                  <ul style="list-style-type: square;padding-left:30px"><li>Mapping common processes in business valuation</li><li>Process-dependent calculation of weighted average cost of capital (WACC)</li><li>Automated sensitivity analysis when various valuation parameters change</li></ul>
-                  <h4 style="font-size:22px;margin:20px 0 12px">App: Maturity analysis</h4>
-                  <ul style="list-style-type: square;padding-left:30px"><li>Analyze open items by category and maturity</li><li>Drill down to the individual posting level</li><li>Move open items to your plan based on calculated payment statistics</li></ul>
-                  <p>Would you like to learn more about our apps? If so, get in touch with <a href="mailto:customerservice@lucanet.com?subject=Inquiry%20regarding%20LucaNet%20apps">customerservice@lucanet.com</a> for all the details on your very own custom solution.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--  -->
-        <div class="full-width-block ln-solution__section">
-          <div class="container">
-            <div class="row ln-solution-text mt35">
-              <div class="col-xs-12">
-                <div class="ln-solution-text__text">
                   <h3
                     style="text-align: center;margin:32px 0 16px;font-size:30px"
-                  >A professional enhancement for your LucaNet software</h3>
+                  >Learn even more about our management reporting software</h3>
                   <p
                     style="text-align: center;"
-                  >Want to see our software for controlling, financial planning, and budgeting in action? Are you also interested in finding out where and how LucaNet software can offer you support that goes beyond P&L, balance sheet, and liquidity planning, financial controlling and budgeting?</p>
+                  >Interested in seeing our reporting software in action? Are you also interested in finding out where and how LucaNet software can offer you support that goes beyond ad-hoc reports, KPI analyses, comparison views, time series analyses, and exchange rate scenarios?</p>
                   <p
                     style="text-align: center;"
                   >We’d be pleased to offer you a live, personalized demo with no obligation – either at your offices or in an online presentation!</p>
@@ -510,7 +390,7 @@
           <div class="container">
             <div class="row">
               <div class="col-xs-12">
-                <h2 class="ln-headline--normal ln-solution__section-headline  tal">Find out more about financial planning and budgeting</h2>
+                <h2 class="ln-headline--normal ln-solution__section-headline  tal">More on Management Reporting</h2>
               </div>
             </div>
             <div class="row ln-solution-text mt35">
@@ -521,12 +401,6 @@
                       <router-link to="" class="ln-teaser__item ln-teaser__item--scale">
                         <img src="../../assets/whitepapers-e-books.jpg" style="width:100%"/>
                         <span class="ln-teaser__footer ln-teaser__footer--block"><span class="btn btn-green" style="margin:0;width:100%">White Paper</span></span>
-                      </router-link>
-                    </div>
-                    <div class="ln-teaser__grid-item" style="flex: 0 0 25%; max-width: 25%;">
-                      <router-link to="" class="ln-teaser__item ln-teaser__item--scale">
-                        <img src="../../assets/case-study-woman.jpg" style="width:100%"/>
-                        <span class="ln-teaser__footer ln-teaser__footer--block"><span class="btn btn-green" style="margin:0;width:100%">Success Story GESOBAU</span></span>
                       </router-link>
                     </div>
                     <div class="ln-teaser__grid-item" style="flex: 0 0 25%; max-width: 25%;">
@@ -557,7 +431,7 @@ export default {
   data() {
     return {
       curidenx: 0,
-      list: ['Simple set-up of a new planning variation', 'Loan planning using an integrated app', 'Transition into balance sheet and liquidity planning', 'Complete transparency in the planning process', 'Comparison and commenting of planning variations']
+      list: ['Comparison view (actual-planning-forecast) with commenting function', 'Comparison view (actual-planning) with traffic light function and graphic', 'Management cockpit with indicators and drill-down to segment level', 'Complete transparency in the planning process', 'Push-button reports']
     }
   },
   methods: {

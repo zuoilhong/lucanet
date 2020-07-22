@@ -25,7 +25,9 @@
                       <div class="ln-mega-menu__grid">
                         <div class="ln-mega-menu__grid-item">
                           <ul class="ln-mega-menu__list">
-                            <li class="ln-mega-menu__headline">Close</li>
+                            <li class="ln-mega-menu__headline" @click="goto('Close')">Close
+                              <!-- <router-link to="/close"></router-link> -->
+                            </li>
                             <li class="ln-mega-menu__item">
                               <router-link
                                 to="/financial"
@@ -39,7 +41,7 @@
                         </div>
                         <div class="ln-mega-menu__grid-item">
                           <ul class="ln-mega-menu__list">
-                            <li class="ln-mega-menu__headline">Plan</li>
+                            <li class="ln-mega-menu__headline" @click="goto('Plan')">Plan</li>
                             <li class="ln-mega-menu__item">
                               <router-link
                                 to="/Financial_Planning"
@@ -61,12 +63,12 @@
                         </div>
                         <div class="ln-mega-menu__grid-item">
                           <ul class="ln-mega-menu__list">
-                            <li class="ln-mega-menu__headline">Report</li>
+                            <li class="ln-mega-menu__headline" @click="goto('Report')">Report</li>
                             <li class="ln-mega-menu__item">
-                              <router-link to title="Management Reporting">Management Reporting</router-link>
+                              <router-link to="/management" title="Management Reporting">Management Reporting</router-link>
                             </li>
                             <li class="ln-mega-menu__item">
-                              <router-link to title="BI and Dashboarding ">BI and Dashboarding</router-link>
+                              <router-link to="/business" title="BI and Dashboarding ">BI and Dashboarding</router-link>
                             </li>
                             <li class="ln-mega-menu__item">
                               <router-link
@@ -234,7 +236,32 @@
 
 <script>
 export default {
+  data(){
+    return {
 
+    }
+  },
+  methods:{
+    goto(type){
+      switch(type) {
+        case 'Close':
+          this.$router.push({
+            path:'/close'
+          })
+          break;
+        case 'Plan':
+           this.$router.push({
+            path:'/plan'
+          })
+          break; 
+        case 'Report':
+           this.$router.push({
+            path:'/report'
+          })
+          break; 
+      }
+    }
+  }
 };
 </script>
 
@@ -417,6 +444,10 @@ export default {
   text-decoration: none;
   margin-bottom: 12px;
   font-family: Roboto, Helvetica Neue, Arial, sans-serif;
+  &:hover{
+    color: #04a88c;
+    cursor: pointer;
+  }
 }
 .ln-mega-menu__item {
   display: flex;

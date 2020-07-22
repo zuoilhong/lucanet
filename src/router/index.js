@@ -36,7 +36,7 @@ const routes = [
       },
       {
         path: '/financial',
-        component: () => import('../views/financial-consolidation/index.vue'),
+        component: () => import('../views/close/financial.vue'),
         meta: {
           title: 'financial-consolidation',
           requiresAuth: false
@@ -44,12 +44,21 @@ const routes = [
       },
       {
         path: '/ifrs16',
-        component: () => import('../views/financial-consolidation/ifrs16.vue'),
+        component: () => import('../views/close/ifrs16.vue'),
         meta: {
           title: 'IFRS-16',
           requiresAuth: false
         }
       },
+      {
+        path: '/close',
+        component: () => import('../views/close/close.vue'),
+        meta: {
+          title: 'Close | Solutions | LucaNet',
+          requiresAuth: false
+        }
+      },
+      
       {
         path: '/Financial_Planning',
         component: () => import('../views/plan/index.vue'),
@@ -71,6 +80,46 @@ const routes = [
         component: () => import('../views/plan/group_Controlling.vue'),
         meta: {
           title: 'Group Controlling',
+          requiresAuth: false
+        }
+      },
+      {
+        path: '/plan',
+        component: () => import('../views/plan/plan.vue'),
+        meta: {
+          title: 'Group Controlling',
+          requiresAuth: false
+        }
+      },
+      {
+        path: '/report',
+        component: () => import('../views/report/report.vue'),
+        meta: {
+          title: 'Reporting | Solutions | LucaNet',
+          requiresAuth: false
+        }
+      },
+      {
+        path: '/management',
+        component: () => import('../views/report/management.vue'),
+        meta: {
+          title: 'Management Reporting | Software Solutions | LucaNet',
+          requiresAuth: false
+        }
+      },
+      {
+        path: '/business',
+        component: () => import('../views/report/business.vue'),
+        meta: {
+          title: 'Business Intelligence & Dashboarding | Software Solutions | LucaNet',
+          requiresAuth: false
+        }
+      },
+      {
+        path: '/disclosure',
+        component: () => import('../views/report/disclosure.vue'),
+        meta: {
+          title: 'Disclosure Management and ESEF-Reporting | Software Solutions | LucaNet',
           requiresAuth: false
         }
       }
