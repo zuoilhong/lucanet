@@ -25,9 +25,7 @@
                       <div class="ln-mega-menu__grid">
                         <div class="ln-mega-menu__grid-item">
                           <ul class="ln-mega-menu__list">
-                            <li class="ln-mega-menu__headline" @click="goto('Close')">Close
-                              <!-- <router-link to="/close"></router-link> -->
-                            </li>
+                            <li class="ln-mega-menu__headline" @click="goto('Close')">Close</li>
                             <li class="ln-mega-menu__item">
                               <router-link
                                 to="/financial"
@@ -72,7 +70,7 @@
                             </li>
                             <li class="ln-mega-menu__item">
                               <router-link
-                                to
+                                to="/disclosure"
                                 title="Disclosure Management and ESEF-Reporting "
                               >Disclosure Management and ESEF-Reporting</router-link>
                             </li>
@@ -82,19 +80,19 @@
                       <div class="ln-mega-menu__grid">
                         <div class="ln-mega-menu__grid-item">
                           <ul class="ln-mega-menu__list">
-                            <li class="ln-mega-menu__headline">Collect</li>
+                            <li class="ln-mega-menu__headline" @click="goto('Collect')">Collect</li>
                             <li class="ln-mega-menu__item">
-                              <router-link to title="Data Integration ">Data Integration</router-link>
+                              <router-link to="/collect/migration" title="Data Integration ">Data Integration</router-link>
                             </li>
                             <li class="ln-mega-menu__item">
                               <router-link
-                                to
+                                to="/collect/quality"
                                 title="Data Collection and Validation"
                               >Data Collection and Validation</router-link>
                             </li>
                             <li class="ln-mega-menu__item">
                               <router-link
-                                to
+                                to="/collect/intercompany"
                                 title="Intercompany Reconciliation "
                               >Intercompany Reconciliation</router-link>
                             </li>
@@ -102,19 +100,13 @@
                         </div>
                         <div class="ln-mega-menu__grid-item">
                           <ul class="ln-mega-menu__list">
-                            <li class="ln-mega-menu__headline">Technology</li>
+                            <li class="ln-mega-menu__headline" style="cursor:default;color:#202a60">Technology</li>
                             <li class="ln-mega-menu__item">
-                              <router-link to title="Software-Architecture">Software-Architecture</router-link>
+                              <router-link to="/technology/software-architecture" title="Software-Architecture">Software-Architecture</router-link>
                             </li>
                             <li class="ln-mega-menu__item">
                               <router-link
-                                to
-                                title="Forecasting and Scenario Planning"
-                              >Forecasting and Scenario Planning</router-link>
-                            </li>
-                            <li class="ln-mega-menu__item">
-                              <router-link
-                                to
+                                to="/technology/cloud"
                                 title="LucaNet.Cloud vs. On-Premises"
                               >LucaNet.Cloud vs. On-Premises</router-link>
                             </li>
@@ -134,9 +126,9 @@
                       <div class="ln-mega-menu__grid">
                         <div class="ln-mega-menu__grid-item">
                           <ul class="ln-mega-menu__list">
-                            <li class="ln-mega-menu__headline">Resources</li>
+                            <li class="ln-mega-menu__headline" style="cursor:default;color:#202a60">Resources</li>
                             <li class="ln-mega-menu__item">
-                              <router-link to title="LucaNet Blog">Blog</router-link>
+                              <router-link to="/resources/blog" title="LucaNet Blog">Blog</router-link>
                             </li>
                             <li class="ln-mega-menu__item">
                               <router-link
@@ -151,7 +143,7 @@
                         </div>
                         <div class="ln-mega-menu__grid-item">
                           <ul class="ln-mega-menu__list">
-                            <li class="ln-mega-menu__headline">Press</li>
+                            <li class="ln-mega-menu__headline" style="cursor:default;color:#202a60">Press</li>
                             <li class="ln-mega-menu__item">
                               <router-link to title="Overview">Overview</router-link>
                             </li>
@@ -257,6 +249,11 @@ export default {
         case 'Report':
            this.$router.push({
             path:'/report'
+          })
+          break; 
+        case 'Collect':
+           this.$router.push({
+            path:'/collect'
           })
           break; 
       }

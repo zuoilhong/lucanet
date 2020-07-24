@@ -122,7 +122,63 @@ const routes = [
           title: 'Disclosure Management and ESEF-Reporting | Software Solutions | LucaNet',
           requiresAuth: false
         }
-      }
+      },
+      {
+        path: '/collect',
+        component: () => import('../views/collect/collect.vue'),
+        meta: {
+          title: 'Collect | Solutions | LucaNet',
+          requiresAuth: false
+        }
+      },
+      {
+        path: '/collect/migration',
+        component: () => import('../views/collect/migration.vue'),
+        meta: {
+          title: 'Collect | Solutions | LucaNet',
+          requiresAuth: false
+        }
+      },
+      {
+        path: '/collect/quality',
+        component: () => import('../views/collect/quality.vue'),
+        meta: {
+          title: 'Collect | Solutions | LucaNet',
+          requiresAuth: false
+        }
+      },
+      {
+        path: '/collect/intercompany',
+        component: () => import('../views/collect/intercompany.vue'),
+        meta: {
+          title: 'Collect | Solutions | LucaNet',
+          requiresAuth: false
+        }
+      },
+      {
+        path: '/technology/software-architecture',
+        component: () => import('../views/technology/software-architecture.vue'),
+        meta: {
+          title: 'Collect | Solutions | LucaNet',
+          requiresAuth: false
+        }
+      },
+      {
+        path: '/technology/cloud',
+        component: () => import('../views/technology/cloud.vue'),
+        meta: {
+          title: 'Collect | Solutions | LucaNet',
+          requiresAuth: false
+        }
+      },
+      {
+        path: '/resources/blog',
+        component: () => import('../views/resources/blog.vue'),
+        meta: {
+          title: 'Collect | Solutions | LucaNet',
+          requiresAuth: false
+        }
+      },
     ]
   }
 ]
@@ -131,6 +187,10 @@ const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes
+})
+
+router.afterEach((to, from, next) => {
+  window.scrollTo(0, 0);
 })
 
 export default router

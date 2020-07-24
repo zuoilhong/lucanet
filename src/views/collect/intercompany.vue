@@ -7,12 +7,12 @@
         <div class="ln-hero-banner__element-wrapper">
           <span
             class="ln-headline--hero ln-hero-banner__headline"
-          >THIS TIME AROUND, A FLAWLESS ANNUAL REPORT</span>
+          >OPTIMALLY RECONCILED DATA</span>
         </div>
       </div>
       <div
         class="ln-hero-banner__background-image"
-        style="background-image: url('https://www.lucanet.com/media/cache/slider_300_lg/images/slider-image/header-loesungen-reporting-1920-300.jpg')"
+        style="background-image: url('https://www.lucanet.com/media/cache/slider_300_lg/images/slider-image/header-loesungen-datenmanagement-1920-300.jpg')"
       ></div>
     </div>
     <main>
@@ -20,35 +20,23 @@
         <div class="full-width-block full-width-block--large-space-above ln-solution__section">
           <div class="container">
             <div class="row">
-              <div class="ln-solution-text col-xs-12 col-sm-8 col-md-9 mb10">
+              <div class="ln-solution-text col-xs-12 col-sm-6 mb10">
                 <h1
                   class="ln-headline--large ln-solution-text__headline"
-                >The software for disclosure management and ESEF reporting</h1>
-                <span class="ln-solution-text__text">
-                  <p>The SmartNotes product developed by our partner, AMANA consulting GmbH, is the <strong>perfect tool for preparing your financial and annual reports</strong>.</p>
-                  <p>Combine the benefits of two market leaders and you’ll have a perfect, comprehensive solution for preparing annual reports that are ready to print. All the aspects of preparing consolidated financial statements are covered, from consolidation in LucaNet to the final generation of the report.</p>
-                </span>
+                >The software for intercompany reconciliation</h1>
+                <span class="ln-solution-text__text"><p>Fast and reliable financial consolidation is one of the goals of every group's financial department. But this can be achieved only if the process starts with a proper intercompany reconciliation. Thanks to the <strong>intercompany reconciliation feature</strong> integrated into LucaNet software, this is no longer a problem. It enables decentralized reconciliation prior to consolidation and saves those involved at the parent company level from having to tediously search for discrepancies during consolidation. This means there are no more obstacles standing in the way of beginning the consolidation process with fully validated, reconciled, and consistent data.</p></span>
               </div>
-              <div class="col-xs-12 col-sm-4 col-md-3 ln-image ln-image--full-size">
-                <div class="dib">
-                  <img class="img-responsive" src="/img/case-study-man.a14e7998.jpg" title="Illustration: LucaNet brochures" alt="Illustration: LucaNet brochures">
-                  <a href="/en/info-center/brochure/" class="btn btn-primary btn-block mt0" title="To the brochures" style="margin-top:0">To the brochures</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--  -->
-        <div class="full-width-block ln-solution__section">
-          <div class="container">
-            <div class="row ln-solution-text mt35"> 
-              <div class="col-xs-12 col-sm-6">
-                <div class="ln-solution-text__text"><p>The two systems have one thing in common: ease of use. Professionals can do everything by themselves. Using an easily customizable import process, SmartNotes transfers the base data from LucaNet and updates all tables, figures in running text, and even diagrams - showing you exactly which figures have changed since the last data import. A workflow that can be tailored to your needs allows you to integrate a reliable check principle, with all changes being displayed transparently and logged in a full audit trail.</p></div>
-              </div>
-              <div class="col-xs-12 col-sm-6">
-                <div class="ln-image--half-side">
-                  <img src="../../assets/graphic-disclosure-managment-en-web.jpg" style="width:100%;height:100%"/>
-                </div>
+              <div class="col-xs-12 col-sm-6 ln-solution-video">
+                <figure>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video width="320" height="240" controls>
+                      <source
+                        src="https://www.youtube-nocookie.com/embed/eyNYfRmbQPc?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.lucanet.com"
+                        type="video/mp4"
+                      />
+                    </video>
+                  </div>
+                </figure>
               </div>
             </div>
           </div>
@@ -59,31 +47,20 @@
               <div class="col-xs-12">
                 <h2
                   class="ln-headline--normal ln-solution__section-headline tal"
-                >What you need in software for creating annual reports</h2>
+                >What you need in intercompany reconciliation software</h2>
               </div>
             </div>
             <div class="row ln-solution-text mt35">
               <div class="col-xs-12">
                 <div class="ln-solution-text__text">
-                  <p>OOur software for creating annual reports is sure to be the right tool for you thanks to all the functions it offers, which include:</p>
+                  <p>Our software for integrated financial planning, budgeting, and controlling is sure to be the right tool for you thanks to all the functions it offers, which include:</p>
                   <ul style="list-style-type: square;font-size:18px;padding-left:30px">
-                    <li>Easy data transfer from any source system</li><li>Internal validation options and guaranteed data consistency</li><li>Full audit trail</li><li>Flexible solution for preparing multilingual financial reports</li><li>Efficient management of report templates</li><li>Integration of tables, charts, numbers, and running text</li><li>Direct access to data in LucaNet</li><li>Traceability when changes are made to the dataset</li><li>Simultaneous editing of report sections by multiple users, in combination with a dedicated permissions system</li><li>User friendliness</li><li>Updating and “pre-completion” of reports at the press of a button</li><li>Full MS Office integration</li><li>Integrated XBRL processor</li><li>Micro-layout thanks to a layout wizard</li></ul>
-                  <p style="text-align:center">
-                    <br />Do you require assistance choosing the right financial planning software? Just download our catalog free of charge.
-                  </p>
-                  <p style="text-align:center">
-                    <router-link
-                      class="btn btn-primary"
-                      to="https://www.lucanet.com/en/info-center/brochure/financial-consolidation"
-                      target="_self"
-                    >Download our brochure</router-link>
-                  </p>
+                    <li>Easy maintenance of the customizable report layout</li><li>Comprehensive importing functionality</li><li>Automated validation options</li><li>Decentralized IC reconciliation</li><li>Workflow support via integrated task management</li><li>Transparency about the state of data collection</li><li>Secure and error-free data transfer</li><li>Clean and straightforward integration with any consolidation solution</li><li>Documentation options</li><li>Data files that can be audited</li></ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        
         <div
           class="full-width-block ln-solution__section ln-metastream ln-metastream--five ln-metastream--middle full-width-block--large-space-above full-width-block--large-space-below"
         >
@@ -92,7 +69,7 @@
               <div class="col-xs-12">
                 <h2
                   class="ln-headline--normal ln-solution__section-headline tac"
-                >An intelligent solution for annual report creation: How LucaNet can benefit you</h2>
+                >An intelligent solution for financial planning: How LucaNet can benefit you</h2>
               </div>
             </div>
             <div class="row mt35">
@@ -184,172 +161,45 @@
             </div>
           </div>
         </div>
-        <div class="full-width-block ln-solution__section ln-solution__section--lg-up">
+        <!--  -->
+        <div class="full-width-block ln-solution__section">
           <div class="container">
-            <div class="row">
-              <div class="col-xs-12">
-                <h2
-                  class="ln-headline--normal ln-solution__section-headline tac"
-                >Six surefire steps to flawless financial reports</h2>
-              </div>
-            </div>
-            <div class="row mt35" id="solution-processes">
-              <div class="col-md-4 ln-solution-process">
-                <i class="ln-solution-process__connector-horizontal"></i>
-                <i class="ln-solution-process__connector-vertical"></i>
-                <div class="ln-solution-process__body">
-                  <div class="ln-solution-process__icon">
-                    <img src="../../assets/icon-p1.png" />
-                    <span class="ln-solution-process__badge">1</span>
-                  </div>
-                  <span class="ln-solution-process__headline">Definition of the data model</span>
-                </div>
-                <div class="dropdown">
-                  <img
-                    src="../../assets/icon-togger.png"
-                    class="dropdownMenu"
-                    id="dropdownMenu2"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  />
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li>Define your planning elements (locations, cost centers, projects, customers, etc.) with just a few clicks.</li>
-                    <li>Entering a planning period is also very easy.</li>
-                  </ul>
+            <div class="mb35">
+              <div class="row">
+                <div class="col-xs-12">
+                  <h2
+                    class="ln-headline--normal ln-solution__section-headline tal"
+                  >Only LucaNet is this simple</h2>
                 </div>
               </div>
-              <div class="col-md-4 ln-solution-process">
-                <img src="../../assets/icon-left.png" style="position: absolute;top:45%;left:0" />
-                <div class="ln-solution-process__body">
-                  <div class="ln-solution-process__icon">
-                    <img src="../../assets/icon-p2.png" />
-                    <span class="ln-solution-process__badge">2</span>
+              <div class="row m0">
+                <div class="col-xs-12 col-md-4 p0">
+                  <div class="ln-tab-list ln-tab-list--hide-mobile">
+                    <div
+                      class="ln-tab-list__tab ln-tab-list__tab--padding-small"
+                      v-for="(item, index) in list"
+                      :key="index"
+                      @click="onList(index)"
+                      :style=" curidenx == index ? 'background: #04a88c;' : '' "
+                    >
+                      <span class="ln-tab-list__headline">{{ item }}</span>
+                    </div>
                   </div>
-                  <span class="ln-solution-process__headline">Transfer of actual data</span>
                 </div>
-                <div class="dropdown">
-                  <img
-                    src="../../assets/icon-togger.png"
-                    class="dropdownMenu"
-                    id="dropdownMenu2"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  />
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li>LucaNet makes importing your actual data from the relevant source systems a snap.</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-4 ln-solution-process">
-                <img
-                  src="../../assets/icon-left3.png"
-                  style="position: absolute;bottom:-55px;left:48%"
-                />
-                <div class="ln-solution-process__body">
-                  <div class="ln-solution-process__icon">
-                    <img src="../../assets/icon-p3.png" />
-                    <span class="ln-solution-process__badge">3</span>
+                <div class="col-xs-12 col-md-8 p0">
+                  <div class="ln-screenshot">
+                    <img src="../../assets/frame_desktop.png" style="width:100%" />
+                    <div class="ln-screenshot__info">
+                      <ul style="list-style-type: square;">
+                        <li>You can adapt our standard packages for German GAAP (HGB) and IFRS to your company's particular needs.</li>
+                      </ul>
+                    </div>
                   </div>
-                  <span class="ln-solution-process__headline">Setup of sub-plans</span>
-                </div>
-                <div class="dropdown">
-                  <img
-                    src="../../assets/icon-togger.png"
-                    class="dropdownMenu"
-                    id="dropdownMenu2"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  />
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li>Put together sub-plans that cover sales, expenses, investments, borrowing, and more.</li>
-                    <li>In doing so, you can use predefined templates for mapping your sub-plans.</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-4 ln-solution-process">
-                <!-- <img
-                  src="../../assets/icon-left3.png"
-                  style="position: absolute;bottom:-55px;left:48%"
-                /> -->
-                <div class="ln-solution-process__body">
-                  <div class="ln-solution-process__icon">
-                    <img src="../../assets/icon-p6.png" />
-                    <span class="ln-solution-process__badge">6</span>
-                  </div>
-                  <span class="ln-solution-process__headline">Balance sheet and liquidity planning</span>
-                </div>
-                <div class="dropdown">
-                  <img
-                    src="../../assets/icon-togger.png"
-                    class="dropdownMenu"
-                    id="dropdownMenu2"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  />
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li>With our planning software, it’s easy to make the transition to integrated balance sheet and liquidity planning.</li>
-                    <li>It’s also possible to define payment modalities</li>
-                    <li>Automate the transition of open items from actual to planning status.</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-4 ln-solution-process">
-                <img src="../../assets/icon-left2.png" style="position: absolute;top:45%;left:0" />
-                <div class="ln-solution-process__body">
-                  <div class="ln-solution-process__icon">
-                    <img src="../../assets/icon-p5.png" />
-                    <span class="ln-solution-process__badge">5</span>
-                  </div>
-                  <span class="ln-solution-process__headline">Integration of sub-plans</span>
-                </div>
-                <div class="dropdown">
-                  <img
-                    src="../../assets/icon-togger.png"
-                    class="dropdownMenu"
-                    id="dropdownMenu2"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  />
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li>Aggregate your planning data from the individual plans into one transparent overall plan.</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-4 ln-solution-process">
-                <img src="../../assets/icon-left2.png" style="position: absolute;top:45%;left:0" />
-                <div class="ln-solution-process__body">
-                  <div class="ln-solution-process__icon">
-                    <img src="../../assets/icon-p4.png" />
-                    <span class="ln-solution-process__badge">4</span>
-                  </div>
-                  <span class="ln-solution-process__headline">Implementation of planning</span>
-                </div>
-                <div class="dropdown">
-                  <img
-                    src="../../assets/icon-togger.png"
-                    class="dropdownMenu"
-                    id="dropdownMenu2"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  />
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li>To finalize your planning, start by entering your centralized or decentralized planning data.</li>
-                  </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <!--  -->
-        
-        <!--  -->
-      
         <!--  -->
         <div class="full-width-block ln-solution__section">
           <div class="container">
@@ -382,7 +232,7 @@
           <div class="container">
             <div class="row">
               <div class="col-xs-12">
-                <h2 class="ln-headline--normal ln-solution__section-headline  tal">More on Disclosure Management and ESEF Reporting</h2>
+                <h2 class="ln-headline--normal ln-solution__section-headline  tal">Find out more about financial planning and budgeting</h2>
               </div>
             </div>
             <div class="row ln-solution-text mt35">
@@ -393,12 +243,6 @@
                       <router-link to="" class="ln-teaser__item ln-teaser__item--scale">
                         <img src="../../assets/whitepapers-e-books.jpg" style="width:100%"/>
                         <span class="ln-teaser__footer ln-teaser__footer--block"><span class="btn btn-green" style="margin:0;width:100%">White Paper</span></span>
-                      </router-link>
-                    </div>
-                    <div class="ln-teaser__grid-item" style="flex: 0 0 25%; max-width: 25%;">
-                      <router-link to="" class="ln-teaser__item ln-teaser__item--scale">
-                        <img src="../../assets/case-study-woman.jpg" style="width:100%"/>
-                        <span class="ln-teaser__footer ln-teaser__footer--block"><span class="btn btn-green" style="margin:0;width:100%">Success Story GESOBAU</span></span>
                       </router-link>
                     </div>
                     <div class="ln-teaser__grid-item" style="flex: 0 0 25%; max-width: 25%;">
@@ -429,7 +273,7 @@ export default {
   data() {
     return {
       curidenx: 0,
-      list: ['Simple set-up of a new planning variation', 'Loan planning using an integrated app', 'Transition into balance sheet and liquidity planning', 'Complete transparency in the planning process', 'Comparison and commenting of planning variations']
+      list: ['A ready-to-use reporting structure in LucaNet', 'Integrated validation rules', 'Straightfoward intercompany reconciliation', 'Complete transparency in the planning process', 'Status monitor for all companies']
     }
   },
   methods: {
@@ -916,19 +760,9 @@ ul li {
   .col-md-4 {
     width: 33.33333%;
   }
-  .ln-image--half-side {
-    width: 455px;
-    margin-left: auto;
-    margin-right: auto;
-}
 }
 
 @media screen and (min-width: 1200px) {
-  .ln-image--half-side {
-    width: 555px;
-    margin-left: auto;
-    margin-right: auto;
-}
   .btn {
     padding: 12px 12px;
     margin: 40px 10px 0 0;
