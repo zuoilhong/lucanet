@@ -179,6 +179,54 @@ const routes = [
           requiresAuth: false
         }
       },
+      {
+        path: '/resources/whitepaper',
+        component: () => import('../views/resources/whitepaper.vue'),
+        meta: {
+          title: 'Collect | Solutions | LucaNet',
+          requiresAuth: false
+        }
+      },
+      {
+        path: '/resources/brochure',
+        component: () => import('../views/resources/brochure.vue'),
+        meta: {
+          title: 'Brochures & Flyers',
+          requiresAuth: false
+        }
+      },
+      {
+        path: '/press/overview',
+        component: () => import('../views/press/overview.vue'),
+        meta: {
+          title: 'Press overview',
+          requiresAuth: false
+        }
+      },
+      {
+        path: '/press/releases',
+        component: () => import('../views/press/releases.vue'),
+        meta: {
+          title: 'Press releases',
+          requiresAuth: false
+        }
+      },
+      {
+        path: '/company/overview',
+        component: () => import('../views/company/overview.vue'),
+        meta: {
+          title: 'About us | LucaNet',
+          requiresAuth: false
+        }
+      },
+      {
+        path: '/company/history',
+        component: () => import('../views/company/history.vue'),
+        meta: {
+          title: 'The story of LucaNet AG (EN)',
+          requiresAuth: false
+        }
+      },
     ]
   }
 ]

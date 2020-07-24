@@ -132,12 +132,12 @@
                             </li>
                             <li class="ln-mega-menu__item">
                               <router-link
-                                to
+                                to="/resources/whitepaper"
                                 title="White papers and e-books"
                               >White papers and e-books</router-link>
                             </li>
                             <li class="ln-mega-menu__item">
-                              <router-link to title="Brochures">Brochures</router-link>
+                              <router-link to="/resources/brochure" title="Brochures">Brochures</router-link>
                             </li>
                           </ul>
                         </div>
@@ -145,10 +145,10 @@
                           <ul class="ln-mega-menu__list">
                             <li class="ln-mega-menu__headline" style="cursor:default;color:#202a60">Press</li>
                             <li class="ln-mega-menu__item">
-                              <router-link to title="Overview">Overview</router-link>
+                              <router-link to="/press/overview" title="Overview">Overview</router-link>
                             </li>
                             <li class="ln-mega-menu__item">
-                              <router-link to title="Press releases">Press releases</router-link>
+                              <router-link to="/press/releases" title="Press releases">Press releases</router-link>
                             </li>
                           </ul>
                         </div>
@@ -168,10 +168,10 @@
                           <ul class="ln-mega-menu__list">
                             <li class="ln-mega-menu__headline">Company</li>
                             <li class="ln-mega-menu__item">
-                              <router-link to title="Overview">Overview</router-link>
+                              <router-link to="/company/overview" title="Overview">Overview</router-link>
                             </li>
                             <li class="ln-mega-menu__item">
-                              <router-link to title="LucaNet history">LucaNet history</router-link>
+                              <router-link to="/company/history" title="LucaNet history">LucaNet history</router-link>
                             </li>
                             <li class="ln-mega-menu__item">
                               <router-link to title="Management team">Management team</router-link>
