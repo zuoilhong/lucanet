@@ -227,6 +227,14 @@ const routes = [
           requiresAuth: false
         }
       },
+      {
+        path: '/company/management-team',
+        component: () => import('../views/company/management-team.vue'),
+        meta: {
+          title: 'Management team and international managing directors | LucaNet',
+          requiresAuth: false
+        }
+      },
     ]
   }
 ]

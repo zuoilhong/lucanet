@@ -174,7 +174,7 @@
                               <router-link to="/company/history" title="LucaNet history">LucaNet history</router-link>
                             </li>
                             <li class="ln-mega-menu__item">
-                              <router-link to title="Management team">Management team</router-link>
+                              <router-link to="/company/management-team" title="Management team">Management team</router-link>
                             </li>
                             <li class="ln-mega-menu__item">
                               <router-link to title="Locations">Locations</router-link>
